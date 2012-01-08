@@ -1,5 +1,5 @@
 /*!
- * jQuery nth plugin v0.9
+ * jQuery nth plugin v0.9.1
  * https://github.com/terkel/jquery-nth
  *
  * Copyright (c) 2012 Takeru Suzuki, http://terkel.jp/
@@ -27,6 +27,7 @@
                         n[n.length] = 'nth-' + j + 'n';
                     } else {
                         n[n.length] = 'nth-' + j + 'n-plus-' + r;
+                        n[n.length] = 'nth-' + j + 'n-minus-' + (j - r);
                     }
                 }
                 $item.eq(i).addClass(n.join(' '));
