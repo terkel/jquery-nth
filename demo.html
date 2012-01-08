@@ -6,12 +6,12 @@
 <style>
 .indexed li { list-style: none; float: left; width: 5em; padding: 10px; margin: 0; background: pink; text-align: center; }
 .indexed li.nth-2n { background: silver; }
-.indexed li.nth-3n { color: fuchsia; *float: none; _position: relative; _margin-right: -3px; _right: 3px; }
+.indexed li.nth-3n { color: fuchsia; *float: none; _position: relative; _right: 3px; _margin-right: -3px; }
 .indexed li.nth-3n-plus-1 { clear: left; }
 .indexed li.nth-16n-plus-1 { font-style: italic; text-decoration: underline; }
 </style>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="./jquery.nth.min.js"></script>
+<script src="./jquery.nth.js"></script>
 <script>
 (function ($) {
     $(function () {
@@ -19,9 +19,6 @@
     });
 })(jQuery);
 </script>
-<!--[if lt IE 9]>
-<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 <body>
 <ol id="test">
