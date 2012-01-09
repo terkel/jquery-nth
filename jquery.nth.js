@@ -26,8 +26,7 @@
                     if (r === 0) {
                         n[n.length] = 'nth-' + j + 'n';
                     } else {
-                        n[n.length] = 'nth-' + j + 'n-plus-' + r;
-                        n[n.length] = 'nth-' + j + 'n-minus-' + (j - r);
+                        n[n.length] = 'nth-' + j + 'n-plus-' + r + ' nth-' + j + 'n-minus-' + (j - r);
                     }
                     if (j > i) {
                         n[n.length] = 'nth-minus-n-plus-' + j;
