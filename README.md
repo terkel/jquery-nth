@@ -8,3 +8,5 @@ It will add classes to the elements like...
         <li class="nth-3 nth-2n-plus-1 nth-2n-minus-1 nth-3n nth-minus-n-plus-3 nth-4n-plus-3 nth-4n-minus-1 nth-minus-n-plus-4">item 3</li>
         <li class="nth-4 nth-2n nth-3n-plus-1 nth-3n-minus-2 nth-4n nth-minus-n-plus-4">item 4</li>
     </ol>
+
+:P
