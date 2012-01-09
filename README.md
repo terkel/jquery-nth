@@ -9,4 +9,4 @@ It will add classes to the elements like...
         <li class="nth-4 nth-2n nth-3n-plus-1 nth-3n-minus-2 nth-4n nth-minus-n-plus-4">item 4</li>
     </ol>
 
-:P
+:-P
